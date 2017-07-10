@@ -188,19 +188,12 @@ p {
 
 .learning {
     margin-top: 50px;
-    position: relative;
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    z-index: -1;
 }
 
 .learning--banner,
 .learning--text {
     display: inline-block;
-    min-height: 550px;
+    height: 550px;
     width: 50%;
 }
 
@@ -213,8 +206,9 @@ p {
 
 .learning--text {
     background-color: #f7f7f7;
-    padding: 5%;
-    top: 50%;
+    padding: 5% 7.5%;
+    display: table-cell;
+    vertical-align: middle
 }
 
 footer {
@@ -257,6 +251,16 @@ footer {
         padding: 75px 10px 10px;
         background-position-x: 10px;
         height: 12em;
+    }
+    .learning--banner,
+    .learning--text {
+        width: 100%;
+    }
+    .learning--banner {
+        height: 250px;
+    }
+    .learning--text {
+        height: 5em;
     }
 }
 
