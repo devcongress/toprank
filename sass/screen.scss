@@ -147,6 +147,7 @@ p {
 .selection--process {
     background-repeat: no-repeat;
     float: left;
+    height: 9em;
     margin: 50px 0 65px;
     text-align: left;
     padding-left: 75px;
@@ -255,6 +256,7 @@ footer {
     .selection--process {
         padding: 75px 10px 10px;
         background-position-x: 10px;
+        height: 12em;
     }
 }
 
