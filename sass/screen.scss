@@ -88,7 +88,7 @@ p {
 .masking--tape {
     width: 500px;
     height: 500px;
-    background-image: url(images/masking-bg.jpg);
+    background-image: url(../images/masking-bg.jpg);
     background-size: cover;
     float: left;
     margin-left: 100px;
@@ -115,34 +115,26 @@ p {
     padding-left: 140px;
     width: 90%;
     max-width: 680px;
-    background-image: url(images/info-section-bg.svg);
+    background-image: url(../images/info-section-bg.svg);
     background-repeat: no-repeat;
     margin: 0 auto;
 }
 
 .requirements {
-    background-image: url(images/yellow-bg.svg);
+    background-image: url(../images/yellow-bg.svg);
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
     min-height: 550px;
     max-width: 100%;
-    padding: 175px 0;
-    white-space: no-wrap;
+    padding: 125px 0;
 }
 
 .requirements--text {
-    float: left;
-    margin-left: calc(50% - 380px);
-    margin-top: -10px;
-}
-
-.requirements--icon {
-    display: inline-block;
-    float: right;
-    margin-right: calc(50% - 350px);
-    background-image: url(images/requirements-icon.svg);
-    background-repeat: no-repeat;
+    padding: 50px 100px 50px 150px;
+    background: url(../images/requirements-icon.svg) no-repeat 95% center;
+    max-width: 992px;
+    margin: 0 auto;
 }
 
 .selection {
@@ -162,15 +154,15 @@ p {
 }
 
 .selection--process__one {
-    background-image: url(images/process-one.svg);
+    background-image: url(../images/process-one.svg);
 }
 
 .selection--process__two {
-    background-image: url(images/process-two.svg);
+    background-image: url(../images/process-two.svg);
 }
 
 .selection--process__three {
-    background-image: url(images/process-three.svg);
+    background-image: url(../images/process-three.svg);
 }
 
 .apply--cta {
@@ -212,7 +204,7 @@ p {
 }
 
 .learning--banner {
-    background-image: url(images/learning-bg.jpg);
+    background-image: url(../images/learning-bg.jpg);
     background-size: cover;
     background-position: center;
     float: left;
@@ -257,10 +249,8 @@ footer {
 
 @media (max-width: 767px) {
     .requirements--text {
-        margin-left: calc(41% - 11em);
-    }
-    .requirements--icon {
-        overflow: hidden;
+        padding-left: 7%;
+        background-position-x: calc(100% + 80px);
     }
     .selection--process {
         padding: 75px 10px 10px;
@@ -279,8 +269,6 @@ footer {
     }
     .requirements--text {
         margin-left: 10%;
-    }
-    .requirements--icon {
-        display: none;
+        background: none;
     }
 }
