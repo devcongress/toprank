@@ -292,6 +292,16 @@ footer {
     .learning--text {
         height: 5em;
     }
+    footer {
+        display: block;
+    }
+    .footer--section {
+        width: 44.99%;
+    }
+    .footer--contact {
+        width: 94.99%;
+        margin-bottom: 40px;
+    }
 }
 
 @media (max-width: 480px) {
