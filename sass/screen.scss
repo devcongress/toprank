@@ -272,6 +272,25 @@ footer {
     }
 }
 
+@media (max-width: 992px) {
+    .masking--tape {
+        margin-left: -5%;
+    }
+    .hero--headline {
+        text-align: center;
+        /* display: inline-block; */
+        /* position: absolute; */
+        display: table-cell;
+        vertical-align: middle;
+        float: right;
+        margin-top: 1.2em;
+        width: 30%;
+        margin-right: 10%;
+        line-height: 1.3;
+        top: calc(50% - 4.0em);
+    }
+}
+
 @media (max-width: 767px) {
     .requirements--text {
         padding-left: 7%;
