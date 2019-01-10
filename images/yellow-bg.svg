@@ -1,1 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="550" viewBox="0 0 1440 550"><title>  Rectangle 22</title><desc>  Created with Sketch.</desc><g fill="none"><path d="M0 56.4C0 56.4 884.4-12.1 1116 1.9 1347.5 15.9 1440 56.4 1440 56.4L1440 535.9C1440 535.9 1165.3 567.6 742 535.9 318.6 504.1 0 535.9 0 535.9L0 56.4Z" fill="#F9E927"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="569px" viewBox="0 0 1440 569" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 22</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy" transform="translate(0.000000, -674.000000)" fill="#F9E927">
+            <g id="requirements" transform="translate(0.000000, 674.000000)">
+                <path d="M0,56.4401665 C0,56.4401665 884.42334,-12.1074122 1115.98572,1.88336339 C1347.5481,15.8741389 1440,56.4401665 1440,56.4401665 L1440,510 C1440,510 1281.97719,595.886195 864.712275,560.245081 C447.447361,524.603967 0,535.88207 0,535.88207 L0,56.4401665 Z" id="Rectangle-22"></path>
+            </g>
+        </g>
+    </g>
+</svg>
